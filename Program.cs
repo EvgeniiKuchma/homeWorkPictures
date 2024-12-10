@@ -9,16 +9,16 @@ namespace homeWorkPictures
     internal class Program
     {
         static void Main(string[] args)
-        {
-            int allUserPicts = 52;
-            int pictsInRow = 3;
+        { 
+            int allUserPictures = 52;
+            int picturesInRow = 3;
             int numberFullRows;
-            int residuePicts;
+            int residuePictures;
 
-            numberFullRows = allUserPicts / pictsInRow;
-            residuePicts = numberFullRows % pictsInRow;
+            numberFullRows = allUserPictures / picturesInRow;
+            residuePictures = numberFullRows % picturesInRow;
 
-            Console.WriteLine($"Number full rows it's {numberFullRows}, pictures residue {residuePicts}");
+            Console.WriteLine($"Number full rows it's {numberFullRows}, pictures residue {residuePictures}");
         }
     }
 }
